@@ -1,24 +1,67 @@
 aid: cell-design-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cell-design-labs.png
 name: Cell Design Labs
-description: 'Cell Design Labs is a company surfaced as a portfolio company of kleiner-perkins and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Cell Design Labs, Inc. was a biotherapeutics company based at 5858 Horton Street, Emeryville,
+  California, that engineered immune cells into "smart, living therapies" for cancer and other diseases.
+  Its platform was a toolkit of proprietary molecular modules — including synthetic Notch (synNOTCH) receptors
+  and programmable, combinatorial-antigen CAR-T circuits developed out of Wendell Lim''s lab at UCSF — deployed
+  inside an immune cell to program its specificity and control its killing force, so a therapy recognizes
+  a disease signature and neutralizes it without harming adjacent tissue. The company ran an exclusive research
+  collaboration with Kite Pharma (announced June 2016) on molecular on/off switches for CAR T-cell immunotherapies,
+  and was acquired by Gilead Sciences, announced 7 December 2017. Cell Design Labs no longer operates as
+  an independent company: celldesignlabs.com is dead (DNS resolves to a parked address, HTTP times out;
+  the archived site shows an expired Squarespace subscription). It published no developer program, API,
+  documentation, SDK, or GitHub organization, and none exists to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/cell-design-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
+x-status: acquired
+x-acquired-by: Gilead Sciences
+x-acquired-announced: '2017-12-07'
+x-operating: false
+x-website-status: dead
+x-archived-website: http://web.archive.org/web/20180423192230/http://www.celldesignlabs.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Cell Therapy
+- Immunotherapy
+- Oncology
+- Synthetic Biology
+- CAR-T
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Company is defunct (acquired by Gilead Sciences, Dec 2017); primary domain celldesignlabs.com
+    does not serve HTTP and its www host does not resolve. No developer portal, API, docs, SDK, package,
+    .well-known, or GitHub org exists. Probed the live domain plus the Wayback archive; identity fields
+    upgraded only.'
