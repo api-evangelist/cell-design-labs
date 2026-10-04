@@ -58,7 +58,7 @@ tags:
 - Immunotherapy
 - Oncology
 - Synthetic Biology
-- Cart
+- CAR-T
 - Acquired
 - Defunct
 tags_raw:
@@ -95,3 +95,5 @@ common:
   x-evidence: The company ran an exclusive research collaboration with Kite Pharma (announced June 2016)
     on molecular on/off switches for CAR T-cell immunotherapies, and was acquired by Gilead Sciences,
     announced 7 December 2017.
+x-tags-removed:
+- Cart
