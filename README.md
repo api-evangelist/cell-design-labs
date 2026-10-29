@@ -64,23 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cell Design Labs, Inc. was a biotherapeutics company in Emeryville, California, that engineered immune
-cells into "smart, living therapies" for cancer and other diseases. Its platform was a toolkit of
-proprietary molecular modules — synthetic Notch (synNOTCH) receptors and programmable,
-combinatorial-antigen CAR-T circuits out of Wendell Lim's lab at UCSF — deployed inside an immune cell
-to program its specificity and control its killing force.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-The company ran an exclusive research collaboration with Kite Pharma (June 2016) on molecular on/off
-switches for CAR T-cell immunotherapies, and was **acquired by Gilead Sciences, announced 7 December
-2017**.
+Cell Design Labs, Inc. was a biotherapeutics company based at 5858 Horton Street, Emeryville, California, that engineered immune cells into "smart, living therapies" for cancer and other diseases. Its platform was a toolkit of proprietary molecular modules — including synthetic Notch (synNOTCH) receptors and programmable, combinatorial-antigen CAR-T circuits developed out of Wendell Lim's lab at UCSF — deployed inside an immune cell to program its specificity and control its killing force, so a therapy recognizes a disease signature and neutralizes it without harming adjacent tissue. The company ran an exclusive research collaboration with Kite Pharma (announced June 2016) on molecular on/off switches for CAR T-cell immunotherapies, and was acquired by Gilead Sciences, announced 7 December 2017. Cell Design Labs no longer operates as an independent company: celldesignlabs.com is dead (DNS resolves to a parked address, HTTP times out; the archived site shows an expired Squarespace subscription). It published no developer program, API, documentation, SDK, or GitHub organization, and none exists to enrich.
 
-## API surface
+**Areas:** Company · Healthcare · Biotechnology · Cell Therapy · Immunotherapy · Oncology · Synthetic Biology · CAR-T · Acquired · Defunct
 
-**None.** Cell Design Labs no longer operates independently. `celldesignlabs.com` resolves to a parked
-address and does not serve HTTP; `www.celldesignlabs.com` does not resolve. The archived site
-([Wayback, 2018-04-23](http://web.archive.org/web/20180423192230/http://www.celldesignlabs.com/))
-shows an expired Squarespace subscription and a marketing-only structure (About / Team / Science /
-News / Careers / Contact) with no developer program, API, documentation, SDK, package, `.well-known`
-surface, or GitHub organization.
+## Cell Design Labs on APIs.io (historical record)
 
-Backed by: kleiner-perkins
+Everything profiled for Cell Design Labs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cell-design-labs/](https://apis.io/providers/cell-design-labs/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cell Design Labs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cell-design-labs/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
